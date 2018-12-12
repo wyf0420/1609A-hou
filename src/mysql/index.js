@@ -1,10 +1,3 @@
-/*
- * @Author: mikey.wyf 
- * @Date: 2018-12-07 16:20:40 
- * @Last Modified by:   mikey.zhaopeng 
- * @Last Modified time: 2018-12-07 16:20:40 
- */
-
 var mysql = require('mysql');
 
 var config = {
@@ -12,7 +5,7 @@ var config = {
     port: 3306,
     user: 'root',
     password: 'root',
-    database: '1609A-nm',
+    database: 'test',
     connectionLimit: 100
 }
 
